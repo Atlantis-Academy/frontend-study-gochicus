@@ -4,6 +4,7 @@
   "license": "BSD 3-Clause",
   "main": "src/index.tsx",
   "dependencies": {
+    "@emotion/react": "^11.4.0",
     "@emotion/styled": "^11.1.5",
     "react": "^17.0.1",
     "react-intl": "^5.13.5",

@@ -4,11 +4,13 @@
   "license": "BSD 3-Clause",
   "main": "src/index.tsx",
   "dependencies": {
-    "react": "^17.0.1",
+    "@emotion/react": "^11.4.0",
     "@emotion/styled": "^11.1.5",
+    "react": "^17.0.1",
     "styled-system": "^5.1.5"
   },
   "devDependencies": {
+    "@types/react": "^17.0.14",
     "@types/styled-system": "^5.1.11"
   }
 }

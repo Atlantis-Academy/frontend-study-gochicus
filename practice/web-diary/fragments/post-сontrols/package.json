@@ -13,5 +13,9 @@
     "@ui/text": "0.0.0",
     "react": "^17.0.1",
     "react-intl": "^5.13.5"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.14",
+    "@types/styled-system": "^5.1.12"
   }
 }

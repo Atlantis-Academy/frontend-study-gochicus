@@ -1,6 +1,7 @@
 import HTMLWebpackPlugin from 'html-webpack-plugin'
 import template          from 'html-webpack-template'
 import path              from 'path'
+import PnpWebpackPlugin  from 'pnp-webpack-plugin'
 
 export const mode = 'development'
 export const entry = './app/src/index.tsx'
@@ -44,6 +45,14 @@ export const module = {
 }
 export const resolve = {
   extensions: ['.ts', '.json', '.tsx', '.js'],
+  plugins: [
+    PnpWebpackPlugin,
+  ],
+}
+export const resolveLoader ={
+  plugins: [
+    PnpWebpackPlugin.moduleLoader(module),
+  ],
 }
 export const devServer = {
   contentBase: path.join(__dirname, 'dist'),

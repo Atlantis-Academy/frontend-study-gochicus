@@ -11,5 +11,8 @@
     "@ui/background": "0.0.0",
     "@ui/layout": "0.0.0",
     "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.14"
   }
 }

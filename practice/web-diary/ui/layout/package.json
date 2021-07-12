@@ -4,9 +4,11 @@
   "license": "BSD 3-Clause",
   "main": "src/index.tsx",
   "dependencies": {
+    "@emotion/react": "^11.4.0",
+    "@emotion/styled": "^11.0.0",
+    "@types/react": "^17.0.14",
     "react": "^17.0.1",
-    "styled-system": "^5.1.5",
-    "@emotion/styled": "^11.0.0"
+    "styled-system": "^5.1.5"
   },
   "devDependencies": {
     "@types/styled-system": "^5.1.11"
